@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The AlbumArt component renders correctly when given an image path 1`] = `
+<div
+  class="album-art"
+  style="width: 80vw; height: 80vw; position: absolute; top: 42vh; left: 50vw; transform: translate(-50%, -50%); background-color: rgb(192, 192, 192); box-shadow: 0px 0px 64px 4px rgba(0,0,0,0.2);"
+>
+  <img
+    alt="Album art"
+    height="100%"
+    src="/api/album/art/123456"
+    width="100%"
+  />
+</div>
+`;
+
+exports[`The AlbumArt component renders correctly when no image path is passed 1`] = `
+<div
+  class="album-art"
+  style="width: 80vw; height: 80vw; position: absolute; top: 42vh; left: 50vw; transform: translate(-50%, -50%); background-color: rgb(192, 192, 192); box-shadow: 0px 0px 64px 4px rgba(0,0,0,0.2);"
+>
+  <div
+    style="font-size: 400px; position: absolute; top: 50%; left: 48%; transform: translate(-50%, -50%);"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-music fa-w-16 "
+      data-icon="music"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      viewBox="0 0 512 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M470.38 1.51L150.41 96A32 32 0 0 0 128 126.51v261.41A139 139 0 0 0 96 384c-53 0-96 28.66-96 64s43 64 96 64 96-28.66 96-64V214.32l256-75v184.61a138.4 138.4 0 0 0-32-3.93c-53 0-96 28.66-96 64s43 64 96 64 96-28.65 96-64V32a32 32 0 0 0-41.62-30.49z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+</div>
+`;

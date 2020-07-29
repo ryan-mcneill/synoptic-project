@@ -1,25 +1,18 @@
 {
-  "name": "synoptic-project",
+  "name": "@rebmem/music-player",
   "version": "0.1.0",
+  "author": "ryan-mcneill",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "@types/jest": "^24.0.0",
-    "@types/node": "^12.0.0",
-    "@types/react": "^16.9.0",
-    "@types/react-dom": "^16.9.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
+    "lerna": "^3.22.1",
     "typescript": "~3.7.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "lint": "eslint",
+    "serve": "lerna run serve --parallel",
+    "serve:db": "lerna run serve --scope @rebmem-music-player/database --parallel",
+    "restore:db": "cd .temp/dump && mongorestore --db musicplayer ./musicplayer && cd ../..",
+    "test": "lerna run test --scope @rebmem-music-player/app --parallel"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,5 +28,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.4",
+    "prettier": "^2.0.5"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }

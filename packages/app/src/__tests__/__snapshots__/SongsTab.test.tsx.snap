@@ -1,0 +1,538 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The SongsTab component renders correctly on the ALBUMS tab 1`] = `
+<div>
+  <div
+    style="display: flex; align-items: center; justify-content: space-around; font-size: 36px; width: 100%; text-align: center; margin-bottom: 20px;"
+  >
+    <div
+      title="SONGS"
+    >
+      <span>
+        SONGS
+      </span>
+      <div
+        style="width: 0px; height: 8px; background-color: black; position: relative; left: 0px; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+    <div
+      title="ARTISTS"
+    >
+      <span>
+        ARTISTS
+      </span>
+      <div
+        style="width: 0px; height: 8px; background-color: black; position: relative; left: 0px; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+    <div
+      title="ALBUMS"
+    >
+      <span>
+        ALBUMS
+      </span>
+      <div
+        style="width: 100%; height: 8px; background-color: black; position: relative; left: 0px; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+    <div
+      title="PLAYLISTS"
+    >
+      <span>
+        PLAYLISTS
+      </span>
+      <div
+        style="width: 0px; height: 8px; background-color: black; position: relative; left: 0px; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+  </div>
+  <div
+    style="overflow-y: scroll; height: 100%;"
+  >
+    <div
+      style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 1.5vh 0px;"
+    >
+      <div>
+        Sample Album A
+      </div>
+      <div
+        style="width: 42px;"
+      >
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-chevron-down fa-w-14 "
+          data-icon="chevron-down"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 1.5vh 0px;"
+    >
+      <div>
+        Sample Album B
+      </div>
+      <div
+        style="width: 42px;"
+      >
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-chevron-down fa-w-14 "
+          data-icon="chevron-down"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`The SongsTab component renders correctly on the ARTISTS tab 1`] = `
+<div>
+  <div
+    style="display: flex; align-items: center; justify-content: space-around; font-size: 36px; width: 100%; text-align: center; margin-bottom: 20px;"
+  >
+    <div
+      title="SONGS"
+    >
+      <span>
+        SONGS
+      </span>
+      <div
+        style="width: 0px; height: 8px; background-color: black; position: relative; left: 0px; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+    <div
+      title="ARTISTS"
+    >
+      <span>
+        ARTISTS
+      </span>
+      <div
+        style="width: 100%; height: 8px; background-color: black; position: relative; left: 0px; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+    <div
+      title="ALBUMS"
+    >
+      <span>
+        ALBUMS
+      </span>
+      <div
+        style="width: 0px; height: 8px; background-color: black; position: relative; left: 0px; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+    <div
+      title="PLAYLISTS"
+    >
+      <span>
+        PLAYLISTS
+      </span>
+      <div
+        style="width: 0px; height: 8px; background-color: black; position: relative; left: 0px; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+  </div>
+  <div
+    style="overflow-y: scroll; height: 100%;"
+  >
+    <div
+      style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 1.5vh 0px;"
+    >
+      <div>
+        Benjamin Tissot
+      </div>
+      <div
+        style="width: 42px;"
+      >
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-chevron-down fa-w-14 "
+          data-icon="chevron-down"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 1.5vh 0px;"
+    >
+      <div>
+        BenSound
+      </div>
+      <div
+        style="width: 42px;"
+      >
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-chevron-down fa-w-14 "
+          data-icon="chevron-down"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`The SongsTab component renders correctly on the PLAYLISTS tab 1`] = `
+<div>
+  <div
+    style="display: flex; align-items: center; justify-content: space-around; font-size: 36px; width: 100%; text-align: center; margin-bottom: 20px;"
+  >
+    <div
+      title="SONGS"
+    >
+      <span>
+        SONGS
+      </span>
+      <div
+        style="width: 0px; height: 8px; background-color: black; position: relative; left: 0px; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+    <div
+      title="ARTISTS"
+    >
+      <span>
+        ARTISTS
+      </span>
+      <div
+        style="width: 0px; height: 8px; background-color: black; position: relative; left: 0px; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+    <div
+      title="ALBUMS"
+    >
+      <span>
+        ALBUMS
+      </span>
+      <div
+        style="width: 0px; height: 8px; background-color: black; position: relative; left: 0px; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+    <div
+      title="PLAYLISTS"
+    >
+      <span>
+        PLAYLISTS
+      </span>
+      <div
+        style="width: 100%; height: 8px; background-color: black; position: relative; left: 0px; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+  </div>
+  <div
+    style="overflow-y: scroll; height: 100%;"
+  >
+    <div
+      style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 1.5vh 0px;"
+    >
+      <div>
+        Test Playlist 1
+      </div>
+      <div
+        style="width: 42px;"
+      >
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-chevron-down fa-w-14 "
+          data-icon="chevron-down"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 1.5vh 0px;"
+    >
+      <div>
+        Test Playlist 2
+      </div>
+      <div
+        style="width: 42px;"
+      >
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-chevron-down fa-w-14 "
+          data-icon="chevron-down"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 1.5vh 0px;"
+    >
+      <div>
+        Test Playlist 3
+      </div>
+      <div
+        style="width: 42px;"
+      >
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-chevron-down fa-w-14 "
+          data-icon="chevron-down"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`The SongsTab component renders correctly on the SONGS tab 1`] = `
+<div>
+  <div
+    style="display: flex; align-items: center; justify-content: space-around; font-size: 36px; width: 100%; text-align: center; margin-bottom: 20px;"
+  >
+    <div
+      title="SONGS"
+    >
+      <span>
+        SONGS
+      </span>
+      <div
+        style="width: 100%; height: 8px; background-color: black; position: relative; left: 0px; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+    <div
+      title="ARTISTS"
+    >
+      <span>
+        ARTISTS
+      </span>
+      <div
+        style="width: 0px; height: 8px; background-color: black; position: relative; left: 0px; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+    <div
+      title="ALBUMS"
+    >
+      <span>
+        ALBUMS
+      </span>
+      <div
+        style="width: 0px; height: 8px; background-color: black; position: relative; left: 0px; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+    <div
+      title="PLAYLISTS"
+    >
+      <span>
+        PLAYLISTS
+      </span>
+      <div
+        style="width: 0px; height: 8px; background-color: black; position: relative; left: 0px; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+  </div>
+  <div
+    style="overflow-y: scroll; height: 100%;"
+  >
+    <div
+      style="margin-top: 80px;"
+    >
+      <div
+        style="display: block;"
+      >
+        <div
+          style="font-size: 48px; margin: 40px 0px;"
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-play fa-w-14 "
+            data-icon="play"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style="margin-left: 8px; margin-right: 40px;"
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+              fill="currentColor"
+            />
+          </svg>
+          Play all
+        </div>
+        <div
+          style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+        >
+          <div
+            style="width: 57px; height: auto; padding-right: 32px;"
+          />
+          <div>
+            <div
+              style="font-size: 48px;"
+            >
+              A New Beginning
+            </div>
+            <div
+              style="font-size: 36px;"
+            >
+              BenSound
+            </div>
+          </div>
+        </div>
+        <div
+          style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+        >
+          <div
+            style="width: 57px; height: auto; padding-right: 32px;"
+          />
+          <div>
+            <div
+              style="font-size: 48px;"
+            >
+              Creative Minds
+            </div>
+            <div
+              style="font-size: 36px;"
+            >
+              Benjamin Tissot, BenSound
+            </div>
+          </div>
+        </div>
+        <div
+          style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+        >
+          <div
+            style="width: 57px; height: auto; padding-right: 32px;"
+          />
+          <div>
+            <div
+              style="font-size: 48px;"
+            >
+              Cute
+            </div>
+            <div
+              style="font-size: 36px;"
+            >
+              Benjamin Tissot
+            </div>
+          </div>
+        </div>
+        <div
+          style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+        >
+          <div
+            style="width: 57px; height: auto; padding-right: 32px;"
+          />
+          <div>
+            <div
+              style="font-size: 48px;"
+            >
+              Going Higher
+            </div>
+            <div
+              style="font-size: 36px;"
+            >
+              Benjamin Tissot
+            </div>
+          </div>
+        </div>
+        <div
+          style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+        >
+          <div
+            style="width: 57px; height: auto; padding-right: 32px;"
+          />
+          <div>
+            <div
+              style="font-size: 48px;"
+            >
+              Hey
+            </div>
+            <div
+              style="font-size: 36px;"
+            >
+              Benjamin Tissot
+            </div>
+          </div>
+        </div>
+        <div
+          style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+        >
+          <div
+            style="width: 57px; height: auto; padding-right: 32px;"
+          />
+          <div>
+            <div
+              style="font-size: 48px;"
+            >
+              Ukulele
+            </div>
+            <div
+              style="font-size: 36px;"
+            >
+              BenSound
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

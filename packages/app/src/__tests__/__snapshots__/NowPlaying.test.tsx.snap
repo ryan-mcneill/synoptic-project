@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The NowPlaying component renders correctly after the data has loaded 1`] = `
+<div
+  style="height: 5vh; width: 90vw; text-align: center; padding: 5vh 5vw 2vh 5vw;"
+>
+  <div
+    style="font-size: 24px;"
+  >
+    NOW PLAYING
+  </div>
+  <div
+    style="font-size: 48px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+  >
+    Hey - Benjamin Tissot
+  </div>
+</div>
+`;
+
+exports[`The NowPlaying component renders correctly when the data has but the artists and songName information isn't pulled through 1`] = `
+<div
+  style="height: 5vh; width: 90vw; text-align: center; padding: 5vh 5vw 2vh 5vw;"
+>
+  <div
+    style="font-size: 24px;"
+  >
+    NOW PLAYING
+  </div>
+  <div
+    style="font-size: 48px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+  >
+    Unknown - Unknown Artist
+  </div>
+</div>
+`;
+
+exports[`The NowPlaying component renders correctly with nothing loaded 1`] = `
+<div
+  style="height: 5vh; width: 90vw; text-align: center; padding: 5vh 5vw 2vh 5vw;"
+>
+  <div
+    style="font-size: 24px;"
+  >
+    NOTHING PLAYING
+  </div>
+  <div
+    style="font-size: 48px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+  >
+    Please make a song selection
+  </div>
+</div>
+`;

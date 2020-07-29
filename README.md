@@ -1,44 +1,61 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🎛🎵 Rebmem Engineering Music Player
 
-## Available Scripts
+This is the music player application designed for Rebmem Engineering. This forms part of my final submission for the 
+level 4 software developer apprenticeship with QA. This main `README.md` contains the basic information on how to run 
+the application. Please see the `Further Documentation` section for links to the rest of the documentation.
 
-In the project directory, you can run:
+## ✅ Pre-Requisites
 
-### `yarn start`
+You must have the following installed on your computer to be able to use this repository:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [NodeJS@10.18.0](https://nodejs.org/en/blog/release/v10.18.0)
+- [MongoDB Community Server@4.2.8](https://www.mongodb.com/try/download/community)
+- [Yarn@1.22.4](https://classic.yarnpkg.com/en/docs/install/)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+> The versions are the recommended versions used, I cannot guarantee this will run using different versions
 
-### `yarn test`
+## 🏁 First Time Setup
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🛠 Install Dependencies
 
-### `yarn build`
+First, you must run the following command in the root directory:
+```shell script
+yarn
+```
+This will install all of the dependencies required by each of the projects.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 💾 Restore Database
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Next, in order to restore the database, you must have the database running:
+```shell script
+yarn serve:db
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Then in another terminal window you need to restore the database using the dump provided:
+```shell script
+yarn restore:db
+```
 
-### `yarn eject`
+> This will provide you a database with mock data that plugs directly into the nodeJS server. For an actual production
+> version of this application, another solution for storing and distributing the database will need to be conceived. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 📱 Usage
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is comprised of a React application, an express server and a mongoDB database. To run the three concurrently
+for development, you need to run this single command in the root directory:
+```shell script
+yarn serve
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The application has been developed with certain assumptions about the hardware it will run on. As such, you must follow
+these steps to see it running correctly:
+1. Launch the Google Chrome web browser
+2. Activate the developer tools _(either right-click anywhere on the screen and choose `Inspect` or navigate to the menu and choose `More Tools > 
+Developer Tools`)_
+3. Click on the `Toggle device toolbar` button in the header of the dev tools
+4. Change the `Responsive` dropdown menu to `iPhone X`
+5. Finally, navigate to [http://localhost:3000](http://localhost:3000) to see the application running
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🗒 Further Documentation
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Link](Link)

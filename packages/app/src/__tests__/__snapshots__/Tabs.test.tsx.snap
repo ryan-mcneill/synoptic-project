@@ -1,0 +1,566 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Tabs component renders correctly when changed to the search tab 1`] = `
+<div
+  style="height: 90vh; width: 100vw; background-color: rgba(255, 255, 255, 0.5); position: relative; bottom: 0px;"
+>
+  <div
+    style="display: flex; align-items: center; justify-content: space-around; font-size: 72px; width: 90vw; height: 8vh; margin: 0px 5vw; text-align: center;"
+  >
+    <div
+      title="SEARCH"
+    >
+      <svg
+        aria-hidden="true"
+        class="svg-inline--fa fa-search fa-w-16 "
+        data-icon="search"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+          fill="currentColor"
+        />
+      </svg>
+      <div
+        style="width: 200%; height: 8px; background-color: black; position: relative; left: -50%; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+    <div
+      title="PLAYLIST"
+    >
+      <svg
+        aria-hidden="true"
+        class="svg-inline--fa fa-bars fa-w-14 "
+        data-icon="bars"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        viewBox="0 0 448 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+          fill="currentColor"
+        />
+      </svg>
+      <div
+        style="width: 0px; height: 8px; background-color: black; position: relative; left: -50%; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+    <div
+      title="SONGS"
+    >
+      <svg
+        aria-hidden="true"
+        class="svg-inline--fa fa-music fa-w-16 "
+        data-icon="music"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M470.38 1.51L150.41 96A32 32 0 0 0 128 126.51v261.41A139 139 0 0 0 96 384c-53 0-96 28.66-96 64s43 64 96 64 96-28.66 96-64V214.32l256-75v184.61a138.4 138.4 0 0 0-32-3.93c-53 0-96 28.66-96 64s43 64 96 64 96-28.65 96-64V32a32 32 0 0 0-41.62-30.49z"
+          fill="currentColor"
+        />
+      </svg>
+      <div
+        style="width: 0px; height: 8px; background-color: black; position: relative; left: -50%; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+  </div>
+  <div
+    style="margin: 0vh 10vw 11vh 10vw; height: 71vh;"
+  >
+    <div>
+      <div
+        style="display: flex; height: 4vh; font-size: 36px; margin-bottom: 20px;"
+      >
+        <input
+          placeholder="Type to search..."
+          style="font-size: 36px; padding-left: 2vw;"
+          type="text"
+        />
+        <input
+          style="width: 8vh; font-size: 36px;"
+          type="button"
+          value="Search"
+        />
+      </div>
+      <div
+        style="font-size: 48px; text-align: center;"
+      >
+        Please type something in the search bar to begin.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`The Tabs component renders correctly when changed to the songs tab 1`] = `
+<div
+  style="height: 90vh; width: 100vw; background-color: rgba(255, 255, 255, 0.5); position: relative; bottom: 0px;"
+>
+  <div
+    style="display: flex; align-items: center; justify-content: space-around; font-size: 72px; width: 90vw; height: 8vh; margin: 0px 5vw; text-align: center;"
+  >
+    <div
+      title="SEARCH"
+    >
+      <svg
+        aria-hidden="true"
+        class="svg-inline--fa fa-search fa-w-16 "
+        data-icon="search"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+          fill="currentColor"
+        />
+      </svg>
+      <div
+        style="width: 0px; height: 8px; background-color: black; position: relative; left: -50%; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+    <div
+      title="PLAYLIST"
+    >
+      <svg
+        aria-hidden="true"
+        class="svg-inline--fa fa-bars fa-w-14 "
+        data-icon="bars"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        viewBox="0 0 448 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+          fill="currentColor"
+        />
+      </svg>
+      <div
+        style="width: 0px; height: 8px; background-color: black; position: relative; left: -50%; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+    <div
+      title="SONGS"
+    >
+      <svg
+        aria-hidden="true"
+        class="svg-inline--fa fa-music fa-w-16 "
+        data-icon="music"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M470.38 1.51L150.41 96A32 32 0 0 0 128 126.51v261.41A139 139 0 0 0 96 384c-53 0-96 28.66-96 64s43 64 96 64 96-28.66 96-64V214.32l256-75v184.61a138.4 138.4 0 0 0-32-3.93c-53 0-96 28.66-96 64s43 64 96 64 96-28.65 96-64V32a32 32 0 0 0-41.62-30.49z"
+          fill="currentColor"
+        />
+      </svg>
+      <div
+        style="width: 200%; height: 8px; background-color: black; position: relative; left: -50%; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+  </div>
+  <div
+    style="margin: 0vh 10vw 11vh 10vw; height: 71vh;"
+  >
+    <div>
+      <div
+        style="display: flex; align-items: center; justify-content: space-around; font-size: 36px; width: 100%; text-align: center; margin-bottom: 20px;"
+      >
+        <div
+          title="SONGS"
+        >
+          <span>
+            SONGS
+          </span>
+          <div
+            style="width: 100%; height: 8px; background-color: black; position: relative; left: 0px; margin-top: 8px; transition: all 0.5s ease;"
+          />
+        </div>
+        <div
+          title="ARTISTS"
+        >
+          <span>
+            ARTISTS
+          </span>
+          <div
+            style="width: 0px; height: 8px; background-color: black; position: relative; left: 0px; margin-top: 8px; transition: all 0.5s ease;"
+          />
+        </div>
+        <div
+          title="ALBUMS"
+        >
+          <span>
+            ALBUMS
+          </span>
+          <div
+            style="width: 0px; height: 8px; background-color: black; position: relative; left: 0px; margin-top: 8px; transition: all 0.5s ease;"
+          />
+        </div>
+        <div
+          title="PLAYLISTS"
+        >
+          <span>
+            PLAYLISTS
+          </span>
+          <div
+            style="width: 0px; height: 8px; background-color: black; position: relative; left: 0px; margin-top: 8px; transition: all 0.5s ease;"
+          />
+        </div>
+      </div>
+      <div
+        style="overflow-y: scroll; height: 100%;"
+      >
+        <div
+          style="margin-top: 80px;"
+        >
+          <div
+            style="display: block;"
+          >
+            <div
+              style="font-size: 48px; margin: 40px 0px;"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-play fa-w-14 "
+                data-icon="play"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="margin-left: 8px; margin-right: 40px;"
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+                  fill="currentColor"
+                />
+              </svg>
+              Play all
+            </div>
+            <div
+              style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+            >
+              <div
+                style="width: 57px; height: auto; padding-right: 32px;"
+              />
+              <div>
+                <div
+                  style="font-size: 48px;"
+                >
+                  A New Beginning
+                </div>
+                <div
+                  style="font-size: 36px;"
+                >
+                  BenSound
+                </div>
+              </div>
+            </div>
+            <div
+              style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+            >
+              <div
+                style="width: 57px; height: auto; padding-right: 32px;"
+              />
+              <div>
+                <div
+                  style="font-size: 48px;"
+                >
+                  Creative Minds
+                </div>
+                <div
+                  style="font-size: 36px;"
+                >
+                  Benjamin Tissot, BenSound
+                </div>
+              </div>
+            </div>
+            <div
+              style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+            >
+              <div
+                style="width: 57px; height: auto; padding-right: 32px;"
+              />
+              <div>
+                <div
+                  style="font-size: 48px;"
+                >
+                  Cute
+                </div>
+                <div
+                  style="font-size: 36px;"
+                >
+                  Benjamin Tissot
+                </div>
+              </div>
+            </div>
+            <div
+              style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+            >
+              <div
+                style="width: 57px; height: auto; padding-right: 32px;"
+              />
+              <div>
+                <div
+                  style="font-size: 48px;"
+                >
+                  Going Higher
+                </div>
+                <div
+                  style="font-size: 36px;"
+                >
+                  Benjamin Tissot
+                </div>
+              </div>
+            </div>
+            <div
+              style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+            >
+              <div
+                style="width: 57px; height: auto; padding-right: 32px;"
+              />
+              <div>
+                <div
+                  style="font-size: 48px;"
+                >
+                  Hey
+                </div>
+                <div
+                  style="font-size: 36px;"
+                >
+                  Benjamin Tissot
+                </div>
+              </div>
+            </div>
+            <div
+              style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+            >
+              <div
+                style="width: 57px; height: auto; padding-right: 32px;"
+              />
+              <div>
+                <div
+                  style="font-size: 48px;"
+                >
+                  Ukulele
+                </div>
+                <div
+                  style="font-size: 36px;"
+                >
+                  BenSound
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`The Tabs component renders correctly with the playlist tab open by default 1`] = `
+<div
+  style="height: 90vh; width: 100vw; background-color: rgba(255, 255, 255, 0.5); position: relative; bottom: 0px;"
+>
+  <div
+    style="display: flex; align-items: center; justify-content: space-around; font-size: 72px; width: 90vw; height: 8vh; margin: 0px 5vw; text-align: center;"
+  >
+    <div
+      title="SEARCH"
+    >
+      <svg
+        aria-hidden="true"
+        class="svg-inline--fa fa-search fa-w-16 "
+        data-icon="search"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+          fill="currentColor"
+        />
+      </svg>
+      <div
+        style="width: 0px; height: 8px; background-color: black; position: relative; left: -50%; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+    <div
+      title="PLAYLIST"
+    >
+      <svg
+        aria-hidden="true"
+        class="svg-inline--fa fa-bars fa-w-14 "
+        data-icon="bars"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        viewBox="0 0 448 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+          fill="currentColor"
+        />
+      </svg>
+      <div
+        style="width: 200%; height: 8px; background-color: black; position: relative; left: -50%; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+    <div
+      title="SONGS"
+    >
+      <svg
+        aria-hidden="true"
+        class="svg-inline--fa fa-music fa-w-16 "
+        data-icon="music"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M470.38 1.51L150.41 96A32 32 0 0 0 128 126.51v261.41A139 139 0 0 0 96 384c-53 0-96 28.66-96 64s43 64 96 64 96-28.66 96-64V214.32l256-75v184.61a138.4 138.4 0 0 0-32-3.93c-53 0-96 28.66-96 64s43 64 96 64 96-28.65 96-64V32a32 32 0 0 0-41.62-30.49z"
+          fill="currentColor"
+        />
+      </svg>
+      <div
+        style="width: 0px; height: 8px; background-color: black; position: relative; left: -50%; margin-top: 8px; transition: all 0.5s ease;"
+      />
+    </div>
+  </div>
+  <div
+    style="margin: 0vh 10vw 11vh 10vw; height: 71vh;"
+  >
+    <div>
+      <div
+        style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+      >
+        <div
+          style="width: 57px; height: auto; padding-right: 32px;"
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-chevron-circle-right fa-w-16 "
+            data-icon="chevron-circle-right"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+        <div>
+          <div
+            style="font-size: 48px;"
+          >
+            Hey
+          </div>
+          <div
+            style="font-size: 36px;"
+          >
+            Benjamin Tissot
+          </div>
+        </div>
+      </div>
+      <div
+        style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+      >
+        <div
+          style="width: 57px; height: auto; padding-right: 32px;"
+        />
+        <div>
+          <div
+            style="font-size: 48px;"
+          >
+            Cute
+          </div>
+          <div
+            style="font-size: 36px;"
+          >
+            Benjamin Tissot
+          </div>
+        </div>
+      </div>
+      <div
+        style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+      >
+        <div
+          style="width: 57px; height: auto; padding-right: 32px;"
+        />
+        <div>
+          <div
+            style="font-size: 48px;"
+          >
+            Going Higher
+          </div>
+          <div
+            style="font-size: 36px;"
+          >
+            Benjamin Tissot
+          </div>
+        </div>
+      </div>
+      <div
+        style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+      >
+        <div
+          style="width: 57px; height: auto; padding-right: 32px;"
+        />
+        <div>
+          <div
+            style="font-size: 48px;"
+          >
+            Creative Minds
+          </div>
+          <div
+            style="font-size: 36px;"
+          >
+            Benjamin Tissot, BenSound
+          </div>
+        </div>
+      </div>
+      <div
+        style="display: flex; height: 4vh; width: 80vw; font-size: 36px; position: absolute; bottom: 5vh;"
+      >
+        <input
+          style="width: 50%; font-size: 36px; font-weight: bolder; padding-left: 2vw; background: none;"
+          type="button"
+          value="CLEAR"
+        />
+        <input
+          style="width: 50%; font-size: 36px; font-weight: bolder; padding-left: 2vw; background: none;"
+          type="button"
+          value="SHUFFLE"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

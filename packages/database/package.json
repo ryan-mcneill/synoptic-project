@@ -1,0 +1,11 @@
+{
+  "name": "@rebmem-music-player/database",
+  "version": "1.0.0",
+  "description": "Database for the Rebmem Engineering music player application.",
+  "author": "ryan-mcneill",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve": "mongod --dbpath=data"
+  }
+}

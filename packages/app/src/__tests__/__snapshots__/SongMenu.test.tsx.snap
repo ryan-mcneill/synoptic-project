@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The SongMenu component renders correctly with all required props 1`] = `
+<div
+  style="font-size: 48px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 24px; background-color: white; padding: 10%; width: 60%; min-height: 30%; max-height: 40%; overflow-y: scroll;"
+>
+  <div
+    style="position: absolute; top: 48px; right: 48px;"
+    title="Close"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-times fa-w-11 "
+      data-icon="times"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      viewBox="0 0 352 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+  Song title
+  <div
+    style="font-size: 36px;"
+  >
+    Artist 1, Artist 2
+  </div>
+  <hr />
+  <div
+    style="margin: 60px 0px; text-align: center;"
+  >
+    Play now
+  </div>
+  <div
+    style="margin: 60px 0px; text-align: center;"
+  >
+    Play next
+  </div>
+  <div
+    style="margin: 60px 0px; text-align: center;"
+  >
+    Add to end of queue
+  </div>
+  <div
+    style="margin: 60px 0px; text-align: center;"
+  >
+    Add to playlist
+  </div>
+</div>
+`;
+
+exports[`The SongMenu component switches back when 'cancel' is clicked 1`] = `
+<div
+  style="font-size: 48px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 24px; background-color: white; padding: 10%; width: 60%; min-height: 30%; max-height: 40%; overflow-y: scroll;"
+>
+  <div
+    style="position: absolute; top: 48px; right: 48px;"
+    title="Close"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-times fa-w-11 "
+      data-icon="times"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      viewBox="0 0 352 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+  Song title
+  <div
+    style="font-size: 36px;"
+  >
+    Artist 1, Artist 2
+  </div>
+  <hr />
+  <div
+    style="margin: 60px 0px; text-align: center;"
+  >
+    Play now
+  </div>
+  <div
+    style="margin: 60px 0px; text-align: center;"
+  >
+    Play next
+  </div>
+  <div
+    style="margin: 60px 0px; text-align: center;"
+  >
+    Add to end of queue
+  </div>
+  <div
+    style="margin: 60px 0px; text-align: center;"
+  >
+    Add to playlist
+  </div>
+</div>
+`;
+
+exports[`The SongMenu component switches to list playlists when the 'add to playlist' button is clicked 1`] = `
+<div
+  style="font-size: 48px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 24px; background-color: white; padding: 10%; width: 60%; min-height: 30%; max-height: 40%; overflow-y: scroll;"
+>
+  <div
+    style="position: absolute; top: 48px; right: 48px;"
+    title="Close"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-times fa-w-11 "
+      data-icon="times"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      viewBox="0 0 352 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+  Song title
+  <div
+    style="font-size: 36px;"
+  >
+    Artist 1, Artist 2
+  </div>
+  <hr />
+  <div
+    style="margin: 30px 0px; text-align: center; font-size: 24px; text-transform: uppercase;"
+  >
+    Add to existing playlist
+  </div>
+  <div
+    style="margin: 60px 0px; text-align: center;"
+  >
+    Test Playlist 1
+  </div>
+  <div
+    style="margin: 60px 0px; text-align: center;"
+  >
+    Test Playlist 2
+  </div>
+  <div
+    style="margin: 60px 0px; text-align: center;"
+  >
+    Test Playlist 3
+  </div>
+  <hr />
+  <div
+    style="margin: 30px 0px; text-align: center; font-size: 24px; text-transform: uppercase;"
+  >
+    Create new playlist
+  </div>
+  <div
+    style="display: flex; height: 4vh; font-size: 36px; margin-bottom: 20px;"
+  >
+    <input
+      placeholder="New playlist name..."
+      style="font-size: 36px; padding-left: 2vw;"
+      type="text"
+    />
+    <input
+      style="width: 7vh; font-size: 36px;"
+      type="button"
+      value="Create"
+    />
+  </div>
+  <div
+    style="margin: 60px 0px 0px 0px; text-align: center;"
+  >
+    Cancel
+  </div>
+</div>
+`;

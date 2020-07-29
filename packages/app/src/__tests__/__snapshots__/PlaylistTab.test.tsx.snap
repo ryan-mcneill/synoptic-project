@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The PlaylistTab component renders correctly with no songs playing 1`] = `
+<div>
+  <div
+    style="font-size: 48px; text-align: center;"
+  >
+    Use the Songs or Search tab to add songs to the playlist.
+  </div>
+  <div
+    style="display: flex; height: 4vh; width: 80vw; font-size: 36px; position: absolute; bottom: 5vh;"
+  >
+    <input
+      disabled=""
+      style="width: 50%; font-size: 36px; font-weight: bolder; padding-left: 2vw; background: none;"
+      type="button"
+      value="CLEAR"
+    />
+    <input
+      disabled=""
+      style="width: 50%; font-size: 36px; font-weight: bolder; padding-left: 2vw; background: none;"
+      type="button"
+      value="SHUFFLE"
+    />
+  </div>
+</div>
+`;
+
+exports[`The PlaylistTab component renders correctly with songs in current state 1`] = `
+<div>
+  <div
+    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+  >
+    <div
+      style="width: 57px; height: auto; padding-right: 32px;"
+    >
+      <svg
+        aria-hidden="true"
+        class="svg-inline--fa fa-chevron-circle-right fa-w-16 "
+        data-icon="chevron-circle-right"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+    <div>
+      <div
+        style="font-size: 48px;"
+      >
+        Hey
+      </div>
+      <div
+        style="font-size: 36px;"
+      >
+        Benjamin Tissot
+      </div>
+    </div>
+  </div>
+  <div
+    style="display: flex; height: 4vh; width: 80vw; font-size: 36px; position: absolute; bottom: 5vh;"
+  >
+    <input
+      style="width: 50%; font-size: 36px; font-weight: bolder; padding-left: 2vw; background: none;"
+      type="button"
+      value="CLEAR"
+    />
+    <input
+      style="width: 50%; font-size: 36px; font-weight: bolder; padding-left: 2vw; background: none;"
+      type="button"
+      value="SHUFFLE"
+    />
+  </div>
+</div>
+`;
+
+exports[`The PlaylistTab component renders correctly with songs in next state 1`] = `
+<div>
+  <div
+    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+  >
+    <div
+      style="width: 57px; height: auto; padding-right: 32px;"
+    />
+    <div>
+      <div
+        style="font-size: 48px;"
+      >
+        Cute
+      </div>
+      <div
+        style="font-size: 36px;"
+      >
+        Benjamin Tissot
+      </div>
+    </div>
+  </div>
+  <div
+    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+  >
+    <div
+      style="width: 57px; height: auto; padding-right: 32px;"
+    />
+    <div>
+      <div
+        style="font-size: 48px;"
+      >
+        Going Higher
+      </div>
+      <div
+        style="font-size: 36px;"
+      >
+        Benjamin Tissot
+      </div>
+    </div>
+  </div>
+  <div
+    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+  >
+    <div
+      style="width: 57px; height: auto; padding-right: 32px;"
+    />
+    <div>
+      <div
+        style="font-size: 48px;"
+      >
+        Creative Minds
+      </div>
+      <div
+        style="font-size: 36px;"
+      >
+        Benjamin Tissot, BenSound
+      </div>
+    </div>
+  </div>
+  <div
+    style="display: flex; height: 4vh; width: 80vw; font-size: 36px; position: absolute; bottom: 5vh;"
+  >
+    <input
+      disabled=""
+      style="width: 50%; font-size: 36px; font-weight: bolder; padding-left: 2vw; background: none;"
+      type="button"
+      value="CLEAR"
+    />
+    <input
+      disabled=""
+      style="width: 50%; font-size: 36px; font-weight: bolder; padding-left: 2vw; background: none;"
+      type="button"
+      value="SHUFFLE"
+    />
+  </div>
+</div>
+`;
+
+exports[`The PlaylistTab component renders correctly with songs in previous state 1`] = `
+<div>
+  <div
+    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+  >
+    <div
+      style="width: 57px; height: auto; padding-right: 32px;"
+    />
+    <div>
+      <div
+        style="font-size: 48px;"
+      >
+        Cute
+      </div>
+      <div
+        style="font-size: 36px;"
+      >
+        Benjamin Tissot
+      </div>
+    </div>
+  </div>
+  <div
+    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+  >
+    <div
+      style="width: 57px; height: auto; padding-right: 32px;"
+    />
+    <div>
+      <div
+        style="font-size: 48px;"
+      >
+        Going Higher
+      </div>
+      <div
+        style="font-size: 36px;"
+      >
+        Benjamin Tissot
+      </div>
+    </div>
+  </div>
+  <div
+    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+  >
+    <div
+      style="width: 57px; height: auto; padding-right: 32px;"
+    />
+    <div>
+      <div
+        style="font-size: 48px;"
+      >
+        Creative Minds
+      </div>
+      <div
+        style="font-size: 36px;"
+      >
+        Benjamin Tissot, BenSound
+      </div>
+    </div>
+  </div>
+  <div
+    style="display: flex; height: 4vh; width: 80vw; font-size: 36px; position: absolute; bottom: 5vh;"
+  >
+    <input
+      disabled=""
+      style="width: 50%; font-size: 36px; font-weight: bolder; padding-left: 2vw; background: none;"
+      type="button"
+      value="CLEAR"
+    />
+    <input
+      disabled=""
+      style="width: 50%; font-size: 36px; font-weight: bolder; padding-left: 2vw; background: none;"
+      type="button"
+      value="SHUFFLE"
+    />
+  </div>
+</div>
+`;

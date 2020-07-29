@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The SongList component renders correctly when visible 1`] = `
+<div
+  style="display: block;"
+>
+  <div
+    style="font-size: 48px; margin: 40px 0px;"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-play fa-w-14 "
+      data-icon="play"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      style="margin-left: 8px; margin-right: 40px;"
+      viewBox="0 0 448 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+        fill="currentColor"
+      />
+    </svg>
+    Play all
+  </div>
+  <div
+    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+  >
+    <div
+      style="width: 57px; height: auto; padding-right: 32px;"
+    />
+    <div>
+      <div
+        style="font-size: 48px;"
+      >
+        A New Beginning
+      </div>
+      <div
+        style="font-size: 36px;"
+      >
+        BenSound
+      </div>
+    </div>
+  </div>
+  <div
+    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+  >
+    <div
+      style="width: 57px; height: auto; padding-right: 32px;"
+    />
+    <div>
+      <div
+        style="font-size: 48px;"
+      >
+        Creative Minds
+      </div>
+      <div
+        style="font-size: 36px;"
+      >
+        Benjamin Tissot, BenSound
+      </div>
+    </div>
+  </div>
+  <div
+    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+  >
+    <div
+      style="width: 57px; height: auto; padding-right: 32px;"
+    />
+    <div>
+      <div
+        style="font-size: 48px;"
+      >
+        Cute
+      </div>
+      <div
+        style="font-size: 36px;"
+      >
+        Benjamin Tissot
+      </div>
+    </div>
+  </div>
+  <div
+    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+  >
+    <div
+      style="width: 57px; height: auto; padding-right: 32px;"
+    />
+    <div>
+      <div
+        style="font-size: 48px;"
+      >
+        Going Higher
+      </div>
+      <div
+        style="font-size: 36px;"
+      >
+        Benjamin Tissot
+      </div>
+    </div>
+  </div>
+  <div
+    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+  >
+    <div
+      style="width: 57px; height: auto; padding-right: 32px;"
+    />
+    <div>
+      <div
+        style="font-size: 48px;"
+      >
+        Hey
+      </div>
+      <div
+        style="font-size: 36px;"
+      >
+        Benjamin Tissot
+      </div>
+    </div>
+  </div>
+  <div
+    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+  >
+    <div
+      style="width: 57px; height: auto; padding-right: 32px;"
+    />
+    <div>
+      <div
+        style="font-size: 48px;"
+      >
+        Ukulele
+      </div>
+      <div
+        style="font-size: 36px;"
+      >
+        BenSound
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`The SongList component renders nothing when not visible 1`] = `null`;

@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"musicplayer.albums"}],"uuid":"a4e23cb7d31647f2a6062ace11b4b0f6"}

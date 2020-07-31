@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`The SongsTab component renders correctly on the ALBUMS tab 1`] = `
-<div>
+<div
+  style="height: inherit;"
+>
   <div
     style="display: flex; align-items: center; justify-content: space-around; font-size: 36px; width: 100%; text-align: center; margin-bottom: 20px;"
   >
@@ -106,7 +108,9 @@ exports[`The SongsTab component renders correctly on the ALBUMS tab 1`] = `
 `;
 
 exports[`The SongsTab component renders correctly on the ARTISTS tab 1`] = `
-<div>
+<div
+  style="height: inherit;"
+>
   <div
     style="display: flex; align-items: center; justify-content: space-around; font-size: 36px; width: 100%; text-align: center; margin-bottom: 20px;"
   >
@@ -211,7 +215,9 @@ exports[`The SongsTab component renders correctly on the ARTISTS tab 1`] = `
 `;
 
 exports[`The SongsTab component renders correctly on the PLAYLISTS tab 1`] = `
-<div>
+<div
+  style="height: inherit;"
+>
   <div
     style="display: flex; align-items: center; justify-content: space-around; font-size: 36px; width: 100%; text-align: center; margin-bottom: 20px;"
   >
@@ -342,7 +348,9 @@ exports[`The SongsTab component renders correctly on the PLAYLISTS tab 1`] = `
 `;
 
 exports[`The SongsTab component renders correctly on the SONGS tab 1`] = `
-<div>
+<div
+  style="height: inherit;"
+>
   <div
     style="display: flex; align-items: center; justify-content: space-around; font-size: 36px; width: 100%; text-align: center; margin-bottom: 20px;"
   >
@@ -417,117 +425,129 @@ exports[`The SongsTab component renders correctly on the SONGS tab 1`] = `
           </svg>
           Play all
         </div>
-        <div
-          style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
-        >
+        <div>
           <div
-            style="width: 57px; height: auto; padding-right: 32px;"
-          />
-          <div>
+            style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+          >
             <div
-              style="font-size: 48px;"
-            >
-              A New Beginning
-            </div>
-            <div
-              style="font-size: 36px;"
-            >
-              BenSound
+              style="width: 57px; height: auto; padding-right: 32px;"
+            />
+            <div>
+              <div
+                style="font-size: 48px;"
+              >
+                A New Beginning
+              </div>
+              <div
+                style="font-size: 36px;"
+              >
+                BenSound
+              </div>
             </div>
           </div>
         </div>
-        <div
-          style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
-        >
+        <div>
           <div
-            style="width: 57px; height: auto; padding-right: 32px;"
-          />
-          <div>
+            style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+          >
             <div
-              style="font-size: 48px;"
-            >
-              Creative Minds
-            </div>
-            <div
-              style="font-size: 36px;"
-            >
-              Benjamin Tissot, BenSound
+              style="width: 57px; height: auto; padding-right: 32px;"
+            />
+            <div>
+              <div
+                style="font-size: 48px;"
+              >
+                Creative Minds
+              </div>
+              <div
+                style="font-size: 36px;"
+              >
+                Benjamin Tissot, BenSound
+              </div>
             </div>
           </div>
         </div>
-        <div
-          style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
-        >
+        <div>
           <div
-            style="width: 57px; height: auto; padding-right: 32px;"
-          />
-          <div>
+            style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+          >
             <div
-              style="font-size: 48px;"
-            >
-              Cute
-            </div>
-            <div
-              style="font-size: 36px;"
-            >
-              Benjamin Tissot
+              style="width: 57px; height: auto; padding-right: 32px;"
+            />
+            <div>
+              <div
+                style="font-size: 48px;"
+              >
+                Cute
+              </div>
+              <div
+                style="font-size: 36px;"
+              >
+                Benjamin Tissot
+              </div>
             </div>
           </div>
         </div>
-        <div
-          style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
-        >
+        <div>
           <div
-            style="width: 57px; height: auto; padding-right: 32px;"
-          />
-          <div>
+            style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+          >
             <div
-              style="font-size: 48px;"
-            >
-              Going Higher
-            </div>
-            <div
-              style="font-size: 36px;"
-            >
-              Benjamin Tissot
+              style="width: 57px; height: auto; padding-right: 32px;"
+            />
+            <div>
+              <div
+                style="font-size: 48px;"
+              >
+                Going Higher
+              </div>
+              <div
+                style="font-size: 36px;"
+              >
+                Benjamin Tissot
+              </div>
             </div>
           </div>
         </div>
-        <div
-          style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
-        >
+        <div>
           <div
-            style="width: 57px; height: auto; padding-right: 32px;"
-          />
-          <div>
+            style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+          >
             <div
-              style="font-size: 48px;"
-            >
-              Hey
-            </div>
-            <div
-              style="font-size: 36px;"
-            >
-              Benjamin Tissot
+              style="width: 57px; height: auto; padding-right: 32px;"
+            />
+            <div>
+              <div
+                style="font-size: 48px;"
+              >
+                Hey
+              </div>
+              <div
+                style="font-size: 36px;"
+              >
+                Benjamin Tissot
+              </div>
             </div>
           </div>
         </div>
-        <div
-          style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
-        >
+        <div>
           <div
-            style="width: 57px; height: auto; padding-right: 32px;"
-          />
-          <div>
+            style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+          >
             <div
-              style="font-size: 48px;"
-            >
-              Ukulele
-            </div>
-            <div
-              style="font-size: 36px;"
-            >
-              BenSound
+              style="width: 57px; height: auto; padding-right: 32px;"
+            />
+            <div>
+              <div
+                style="font-size: 48px;"
+              >
+                Ukulele
+              </div>
+              <div
+                style="font-size: 36px;"
+              >
+                BenSound
+              </div>
             </div>
           </div>
         </div>

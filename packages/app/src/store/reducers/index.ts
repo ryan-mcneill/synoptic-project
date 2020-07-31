@@ -7,6 +7,7 @@ import { menu } from "./menuReducers";
 import { playlist } from "./playlistReducers";
 import { playlists } from "./playlistsReducers";
 import { songs } from "./songsReducers";
+import { timedOut } from "./timedOutReducers";
 
 export default combineReducers({
   albums,
@@ -15,5 +16,6 @@ export default combineReducers({
   menu,
   playlist,
   playlists,
-  songs
+  songs,
+  timedOut
 });

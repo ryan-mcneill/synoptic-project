@@ -24,7 +24,7 @@ exports[`The SongMenu component renders correctly with all required props 1`] = 
       />
     </svg>
   </div>
-  Song title
+  A New Beginning
   <div
     style="font-size: 36px;"
   >
@@ -78,7 +78,7 @@ exports[`The SongMenu component switches back when 'cancel' is clicked 1`] = `
       />
     </svg>
   </div>
-  Song title
+  A New Beginning
   <div
     style="font-size: 36px;"
   >
@@ -132,7 +132,7 @@ exports[`The SongMenu component switches to list playlists when the 'add to play
       />
     </svg>
   </div>
-  Song title
+  A New Beginning
   <div
     style="font-size: 36px;"
   >

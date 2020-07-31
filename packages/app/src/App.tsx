@@ -2,9 +2,7 @@ import React, { ReactElement } from "react";
 import { Action } from "redux";
 import { connect, ConnectedProps } from "react-redux";
 import { ThunkDispatch } from "redux-thunk";
-import IdleTimer from "react-idle-timer";
-// @ts-ignore TODO: create type file for this library
-import { Menu, MusicPlayer, PageLoader } from "./views";
+import { Menu, MusicPlayer, PageLoader, Timeout } from "./views";
 import {
   fetchAlbums,
   fetchArtists,
@@ -46,12 +44,7 @@ const App: React.FC<PropsFromRedux> = ({
           overflow: "hidden"
         }}
       >
-        <IdleTimer
-          timeout={4000}
-          onActive={() => console.log(false)}
-          onIdle={() => console.log(true)}
-          debounce={250}
-        />
+        <Timeout />
         <PageLoader />
         <MusicPlayer />
         <Menu />

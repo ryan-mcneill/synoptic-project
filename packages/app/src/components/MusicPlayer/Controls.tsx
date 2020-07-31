@@ -94,7 +94,11 @@ const Controls: React.FC<PropsFromRedux> = ({
     >
       <ReactAudioPlayer
         ref={(element: ReactAudioPlayer) => (audioPlayer = element)}
-        src={songId ? `/api/song/${songId}` : ""}
+        src={
+          songId
+            ? `${process.env.REACT_APP_SERVER_ADDRESS}/api/song/${songId}`
+            : ""
+        }
         listenInterval={1000}
         onListen={(e) => setSongTime(e)}
         onLoadedMetadata={() => onSongLoad()}

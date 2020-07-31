@@ -19,5 +19,6 @@ module.exports = {
   plugins: ["@typescript-eslint", "prettier", "react"],
   rules: {
     "react/prop-types": "off"
-  }
+  },
+  ignorePatterns: ["**/dist/*", "**/build/*", ".*", "node_modules/*", "**/public/*"]
 };

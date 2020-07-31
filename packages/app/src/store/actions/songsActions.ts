@@ -28,7 +28,7 @@ export const fetchSongs = () => {
   return (dispatch: Dispatch) => {
     dispatch(fetchSongsAction());
 
-    get(`/api/songs/all/all`)
+    get(`${process.env.REACT_APP_SERVER_ADDRESS}/api/songs/all/all`)
       .then((songsData: AxiosResponse<Song[]>) => {
         dispatch(fetchSongsSuccess(songsData.data));
       })

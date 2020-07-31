@@ -73,8 +73,12 @@ export const getBackground = ({ id }: { id: string }) => {
   return (dispatch: Dispatch) => {
     const fac = new FastAverageColor();
 
+    console.log(`${process.env.REACT_APP_SERVER_ADDRESS}/api/album/art/${id}`)
+
     fac
-      .getColorAsync(`/api/album/art/${id}`)
+      .getColorAsync(
+        `${process.env.REACT_APP_SERVER_ADDRESS}/api/album/art/${id}`
+      )
       .then((color: IFastAverageColorResult) => {
         const { isDark, hex: colour } = color;
         dispatch(setBackground({ isDark, colour }));

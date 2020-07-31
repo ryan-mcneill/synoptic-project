@@ -37,7 +37,25 @@ const PlaylistTab: FC<PropsFromRedux> = ({
     (previous && previous.length < 0 && next && next.length < 0 && !current) ||
     isempty(current);
 
-  const handleTileClick = () => {
+  const handleTileClick = (id: string) => {
+    if (current && current._id !== id) {
+      const allSongs = [...previous, current, ...next];
+      let songIndex = -1;
+
+      allSongs.forEach(({ _id }, index) => {
+        if (_id === id) songIndex = index;
+      });
+
+      if (songIndex !== -1) {
+        const previous = songIndex !== 0 ? allSongs.slice(0, songIndex) : [];
+        const current = allSongs[songIndex];
+        const next =
+          songIndex !== allSongs.length - 1
+            ? allSongs.slice(songIndex + 1, allSongs.length)
+            : [];
+        updatePlaylist({ previous, current, next });
+      }
+    }
     setIsOpen(false);
   };
 
@@ -49,10 +67,6 @@ const PlaylistTab: FC<PropsFromRedux> = ({
     shuffleSongs();
   };
 
-  const handleSave = () => {
-    console.log("save button clicked");
-  };
-
   return (
     <div>
       {previous &&
@@ -60,20 +74,18 @@ const PlaylistTab: FC<PropsFromRedux> = ({
         previous.map((playlist) => (
           <InfoTile
             key={`info-tile-${playlist._id}`}
-            title={playlist.name}
-            subtitle={artistsToString(playlist.artists)}
-            onClick={() => handleTileClick()}
-            id={playlist._id}
+            onClick={() => handleTileClick(playlist._id)}
+            hasMenu={false}
+            data={playlist}
           />
         ))}
       {current && (
         <InfoTile
           key={`info-tile-${current._id}`}
-          title={current.name}
-          subtitle={artistsToString(current.artists)}
-          onClick={() => handleTileClick()}
+          onClick={() => handleTileClick(current._id)}
+          hasMenu={false}
+          data={current}
           selected
-          id={current._id}
         />
       )}
       {next &&
@@ -81,10 +93,9 @@ const PlaylistTab: FC<PropsFromRedux> = ({
         next.map((playlist) => (
           <InfoTile
             key={`info-tile-${playlist._id}`}
-            title={playlist.name}
-            subtitle={artistsToString(playlist.artists)}
-            onClick={() => handleTileClick()}
-            id={playlist._id}
+            onClick={() => handleTileClick(playlist._id)}
+            data={playlist}
+            hasMenu={false}
           />
         ))}
       {(!next || next.length === 0) &&

@@ -11,8 +11,11 @@
     "lint": "eslint",
     "serve": "lerna run serve --parallel",
     "serve:db": "lerna run serve --scope @rebmem-music-player/database --parallel",
+    "serve:dev": "lerna run serve:dev --parallel",
+    "build": "lerna run build --parallel",
     "restore:db": "cd .temp/dump && mongorestore --db musicplayer ./musicplayer && cd ../..",
-    "test": "lerna run test --scope @rebmem-music-player/app --parallel"
+    "test": "lerna run test --scope @rebmem-music-player/app --parallel",
+    "stop": "lerna run stop --parallel"
   },
   "eslintConfig": {
     "extends": "react-app"

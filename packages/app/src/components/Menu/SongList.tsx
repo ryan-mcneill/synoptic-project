@@ -57,9 +57,10 @@ const SongList: FC<PropsFromRedux & AccordionProps> = ({
           {data.map((song) => (
             <InfoTile
               key={`info-tile-${song._id}`}
-              title={song.name}
-              subtitle={artistsToString(song.artists)}
-              id={song._id}
+              data={song}
+              // title={song.name}
+              // subtitle={artistsToString(song.artists)}
+              // id={song._id}
             />
           ))}
         </div>

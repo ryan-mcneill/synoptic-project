@@ -17,6 +17,7 @@ import {
 import { setIsOpen, setSelectedTab } from "./menuActions";
 import { addToPlaylist, fetchPlaylists } from "./playlistsActions";
 import { fetchSongs } from "./songsActions";
+import { setTimedOut } from "./timedOutActions";
 
 export {
   fetchSongs,
@@ -35,5 +36,6 @@ export {
   shuffleSongs,
   updatePlaylist,
   fetchPlaylists,
-  addToPlaylist
+  addToPlaylist,
+  setTimedOut
 };

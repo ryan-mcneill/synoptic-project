@@ -210,8 +210,8 @@ exports[`The Controls component renders with the data loaded and the correct son
     class="react-audio-player "
     id=""
     preload="metadata"
-    src="/api/song/1234567890"
-    title="/api/song/1234567890"
+    src="http://localhost:5000/api/song/1234567890"
+    title="http://localhost:5000/api/song/1234567890"
   >
     <p>
       Your browser does not support the 

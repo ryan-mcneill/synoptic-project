@@ -25,117 +25,129 @@ exports[`The SongList component renders correctly when visible 1`] = `
     </svg>
     Play all
   </div>
-  <div
-    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
-  >
+  <div>
     <div
-      style="width: 57px; height: auto; padding-right: 32px;"
-    />
-    <div>
+      style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+    >
       <div
-        style="font-size: 48px;"
-      >
-        A New Beginning
-      </div>
-      <div
-        style="font-size: 36px;"
-      >
-        BenSound
+        style="width: 57px; height: auto; padding-right: 32px;"
+      />
+      <div>
+        <div
+          style="font-size: 48px;"
+        >
+          A New Beginning
+        </div>
+        <div
+          style="font-size: 36px;"
+        >
+          BenSound
+        </div>
       </div>
     </div>
   </div>
-  <div
-    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
-  >
+  <div>
     <div
-      style="width: 57px; height: auto; padding-right: 32px;"
-    />
-    <div>
+      style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+    >
       <div
-        style="font-size: 48px;"
-      >
-        Creative Minds
-      </div>
-      <div
-        style="font-size: 36px;"
-      >
-        Benjamin Tissot, BenSound
+        style="width: 57px; height: auto; padding-right: 32px;"
+      />
+      <div>
+        <div
+          style="font-size: 48px;"
+        >
+          Creative Minds
+        </div>
+        <div
+          style="font-size: 36px;"
+        >
+          Benjamin Tissot, BenSound
+        </div>
       </div>
     </div>
   </div>
-  <div
-    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
-  >
+  <div>
     <div
-      style="width: 57px; height: auto; padding-right: 32px;"
-    />
-    <div>
+      style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+    >
       <div
-        style="font-size: 48px;"
-      >
-        Cute
-      </div>
-      <div
-        style="font-size: 36px;"
-      >
-        Benjamin Tissot
+        style="width: 57px; height: auto; padding-right: 32px;"
+      />
+      <div>
+        <div
+          style="font-size: 48px;"
+        >
+          Cute
+        </div>
+        <div
+          style="font-size: 36px;"
+        >
+          Benjamin Tissot
+        </div>
       </div>
     </div>
   </div>
-  <div
-    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
-  >
+  <div>
     <div
-      style="width: 57px; height: auto; padding-right: 32px;"
-    />
-    <div>
+      style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+    >
       <div
-        style="font-size: 48px;"
-      >
-        Going Higher
-      </div>
-      <div
-        style="font-size: 36px;"
-      >
-        Benjamin Tissot
+        style="width: 57px; height: auto; padding-right: 32px;"
+      />
+      <div>
+        <div
+          style="font-size: 48px;"
+        >
+          Going Higher
+        </div>
+        <div
+          style="font-size: 36px;"
+        >
+          Benjamin Tissot
+        </div>
       </div>
     </div>
   </div>
-  <div
-    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
-  >
+  <div>
     <div
-      style="width: 57px; height: auto; padding-right: 32px;"
-    />
-    <div>
+      style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+    >
       <div
-        style="font-size: 48px;"
-      >
-        Hey
-      </div>
-      <div
-        style="font-size: 36px;"
-      >
-        Benjamin Tissot
+        style="width: 57px; height: auto; padding-right: 32px;"
+      />
+      <div>
+        <div
+          style="font-size: 48px;"
+        >
+          Hey
+        </div>
+        <div
+          style="font-size: 36px;"
+        >
+          Benjamin Tissot
+        </div>
       </div>
     </div>
   </div>
-  <div
-    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
-  >
+  <div>
     <div
-      style="width: 57px; height: auto; padding-right: 32px;"
-    />
-    <div>
+      style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+    >
       <div
-        style="font-size: 48px;"
-      >
-        Ukulele
-      </div>
-      <div
-        style="font-size: 36px;"
-      >
-        BenSound
+        style="width: 57px; height: auto; padding-right: 32px;"
+      />
+      <div>
+        <div
+          style="font-size: 48px;"
+        >
+          Ukulele
+        </div>
+        <div
+          style="font-size: 36px;"
+        >
+          BenSound
+        </div>
       </div>
     </div>
   </div>

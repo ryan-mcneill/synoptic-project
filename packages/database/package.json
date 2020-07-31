@@ -6,6 +6,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "serve": "mongod --dbpath=data"
+    "serve": "pm2 start \"mongod --dbpath=data\" --name music-player-database",
+    "serve:dev": "mongod --dbpath=data",
+    "stop": "pm2 stop music-player-database"
   }
 }

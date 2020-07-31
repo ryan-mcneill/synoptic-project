@@ -1,6 +1,7 @@
 import express, { Request, Response } from "express";
 import mongoose from "mongoose";
 import bodyParser from "body-parser";
+import cors from "cors";
 
 require("./models/Song");
 require("./models/Artist");
@@ -20,6 +21,7 @@ mongoose
   });
 
 app.use(bodyParser.json());
+app.use(cors());
 
 require("./routes/albumRoutes")(app);
 require("./routes/artistRoutes")(app);
@@ -31,7 +33,9 @@ if (process.env.NODE_ENV === "production") {
 
   const path = require("path");
   app.get("*", (req: Request, res: Response) => {
-    res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
+    res.sendFile(
+      path.resolve(__dirname, "packages", "app", "build", "index.html")
+    );
   });
 }
 

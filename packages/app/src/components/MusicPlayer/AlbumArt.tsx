@@ -30,7 +30,7 @@ const AlbumArt: React.FC<PropsFromRedux> = ({ albumId }): ReactElement => {
       {albumId ? (
         <img
           alt="Album art"
-          src={`/api/album/art/${albumId}`}
+          src={`${process.env.REACT_APP_SERVER_ADDRESS}/api/album/art/${albumId}`}
           width="100%"
           height="100%"
         />

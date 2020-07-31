@@ -1,10 +1,10 @@
 import React, { createRef, CSSProperties, ReactElement, useState } from "react";
 import { connect, ConnectedProps } from "react-redux";
 import { playlistsToArray } from "../../utils";
-import { State } from "../../store/types";
+import { PlaylistState, Song, State } from "../../store/types";
 import { ThunkDispatch } from "redux-thunk";
 import { Action } from "redux";
-import { addToPlaylist } from "../../store/actions";
+import { addToPlaylist, updatePlaylist } from "../../store/actions";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
@@ -21,9 +21,8 @@ const subtitleStyles: CSSProperties = {
 };
 
 interface SongMenuProps {
-  songName: string;
+  data: Song;
   artists: string;
-  id: string;
   onClose: () => void;
 }
 
@@ -36,11 +35,16 @@ const mapDispatchToProps = (dispatch: ThunkDispatch<State, void, Action>) => ({
     playlistId?: string;
     name: string;
     songId: string;
-  }) => dispatch(addToPlaylist({ playlistId, name, songId }))
+  }) => dispatch(addToPlaylist({ playlistId, name, songId })),
+  updatePlaylist: ({ previous, current, next }: PlaylistState) =>
+    dispatch(updatePlaylist({ previous, current, next }))
 });
 
 const mapStateToProps = (state: State) => ({
-  playlists: state.playlists.data
+  playlists: state.playlists.data,
+  current: state.playlist.current,
+  previous: state.playlist.previous,
+  next: state.playlist.next
 });
 
 const connector = connect(mapStateToProps, mapDispatchToProps);
@@ -50,10 +54,13 @@ type PropsFromRedux = ConnectedProps<typeof connector>;
 const SongMenu: React.FC<PropsFromRedux & SongMenuProps> = ({
   playlists,
   addToPlaylist,
-  songName,
+  data,
   artists,
-  id,
-  onClose
+  onClose,
+  current,
+  previous,
+  next,
+  updatePlaylist
 }): ReactElement => {
   const [playlistView, setPlaylistView] = useState(false);
   const textInput = createRef<HTMLInputElement>();
@@ -68,13 +75,49 @@ const SongMenu: React.FC<PropsFromRedux & SongMenuProps> = ({
   };
 
   const handleAdd = (name: string, playlistId: string) => {
-    addToPlaylist({ name, playlistId, songId: id });
+    addToPlaylist({ name, playlistId, songId: data._id });
     setPlaylistView(false);
+    onClose();
   };
 
   const handleCreate = () => {
     if (textInput.current && textInput.current.value !== "")
-      addToPlaylist({ name: textInput.current.value, songId: id });
+      addToPlaylist({ name: textInput.current.value, songId: data._id });
+    setPlaylistView(false);
+    onClose();
+  };
+
+  const handlePlayNow = () => {
+    let newPrevious: Song[] = [];
+    if (current) newPrevious = [...previous, current];
+
+    updatePlaylist({ previous: newPrevious, current: data, next });
+    setPlaylistView(false);
+    onClose();
+  };
+
+  const handlePlayNext = () => {
+    if (!current) {
+      handlePlayNow();
+      return;
+    }
+
+    const newNext = [data, ...next];
+
+    updatePlaylist({ previous, current, next: newNext });
+    setPlaylistView(false);
+    onClose();
+  };
+
+  const handleEndQueue = () => {
+    if (!current) {
+      handlePlayNow();
+      return;
+    }
+
+    const newNext = [...next, data];
+
+    updatePlaylist({ previous, current, next: newNext });
     setPlaylistView(false);
     onClose();
   };
@@ -103,14 +146,20 @@ const SongMenu: React.FC<PropsFromRedux & SongMenuProps> = ({
       >
         <FontAwesomeIcon icon={faTimes} />
       </div>
-      {songName}
+      {data.name}
       {artists && <div style={{ fontSize: "36px" }}>{artists}</div>}
       <hr />
       {!playlistView ? (
         <>
-          <div style={buttonStyles}>Play now</div>
-          <div style={buttonStyles}>Play next</div>
-          <div style={buttonStyles}>Add to end of queue</div>
+          <div style={buttonStyles} onClick={handlePlayNow}>
+            Play now
+          </div>
+          <div style={buttonStyles} onClick={handlePlayNext}>
+            Play next
+          </div>
+          <div style={buttonStyles} onClick={handleEndQueue}>
+            Add to end of queue
+          </div>
           <div style={buttonStyles} onClick={playlistHandler}>
             Add to playlist
           </div>

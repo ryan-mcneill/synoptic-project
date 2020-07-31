@@ -33,11 +33,13 @@ export const fetchArtists = () => {
   return (dispatch: Dispatch) => {
     dispatch(fetchArtistsAction());
 
-    get(`/api/artists`)
+    get(`${process.env.REACT_APP_SERVER_ADDRESS}/api/artists`)
       .then((artistsResponse: AxiosResponse<Song[]>) => {
         Promise.all(
           artistsResponse.data.map((artist: BasicDetails) =>
-            get(`/api/songs/artist/${artist._id}`).then((songResponse) => ({
+            get(
+              `${process.env.REACT_APP_SERVER_ADDRESS}/api/songs/artist/${artist._id}`
+            ).then((songResponse) => ({
               [artist._id]: songResponse.data
             }))
           )

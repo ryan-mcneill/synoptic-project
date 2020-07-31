@@ -5,9 +5,8 @@ import { mockState } from "../__mocks__/state";
 
 describe("The SongMenu component", () => {
   const props = {
-    songName: "Song title",
+    data: mockState.songs.data[0],
     artists: "Artist 1, Artist 2",
-    id: "1234567890",
     onClose: jest.fn()
   };
 

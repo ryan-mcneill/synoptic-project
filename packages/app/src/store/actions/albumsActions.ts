@@ -33,11 +33,11 @@ export const fetchAlbums = () => {
   return (dispatch: Dispatch) => {
     dispatch(fetchAlbumsAction());
 
-    get(`/api/albums`)
+    get(`${process.env.REACT_APP_SERVER_ADDRESS}/api/albums`)
       .then((albumResponse: AxiosResponse<Song[]>) => {
         Promise.all(
           albumResponse.data.map((album: BasicDetails) =>
-            get(`/api/songs/album/${album._id}`).then((songResponse) => ({
+            get(`${process.env.REACT_APP_SERVER_ADDRESS}/api/songs/album/${album._id}`).then((songResponse) => ({
               [album._id]: songResponse.data
             }))
           )

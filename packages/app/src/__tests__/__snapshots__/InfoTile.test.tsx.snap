@@ -1,94 +1,182 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`The InfoTile component functions correctly when passed an onClick prop 1`] = `
-<div
-  style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
->
+<div>
   <div
-    style="width: 57px; height: auto; padding-right: 32px;"
-  />
-  <div>
+    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+  >
     <div
-      style="font-size: 48px;"
+      style="width: 57px; height: auto; padding-right: 32px;"
+    />
+    <div>
+      <div
+        style="font-size: 48px;"
+      >
+        A New Beginning
+      </div>
+      <div
+        style="font-size: 36px;"
+      >
+        BenSound
+      </div>
+    </div>
+  </div>
+  <div
+    style="font-size: 48px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 24px; background-color: white; padding: 10%; width: 60%; min-height: 30%; max-height: 40%; overflow-y: scroll;"
+  >
+    <div
+      style="position: absolute; top: 48px; right: 48px;"
+      title="Close"
     >
-      Test Title
+      <svg
+        aria-hidden="true"
+        class="svg-inline--fa fa-times fa-w-11 "
+        data-icon="times"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        viewBox="0 0 352 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+    A New Beginning
+    <div
+      style="font-size: 36px;"
+    >
+      BenSound
+    </div>
+    <hr />
+    <div
+      style="margin: 60px 0px; text-align: center;"
+    >
+      Play now
+    </div>
+    <div
+      style="margin: 60px 0px; text-align: center;"
+    >
+      Play next
+    </div>
+    <div
+      style="margin: 60px 0px; text-align: center;"
+    >
+      Add to end of queue
+    </div>
+    <div
+      style="margin: 60px 0px; text-align: center;"
+    >
+      Add to playlist
     </div>
   </div>
 </div>
 `;
 
 exports[`The InfoTile component renders correctly with all required props 1`] = `
-<div
-  style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
->
+<div>
   <div
-    style="width: 57px; height: auto; padding-right: 32px;"
-  />
-  <div>
+    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+  >
     <div
-      style="font-size: 48px;"
-    >
-      Test Title
+      style="width: 57px; height: auto; padding-right: 32px;"
+    />
+    <div>
+      <div
+        style="font-size: 48px;"
+      >
+        A New Beginning
+      </div>
+      <div
+        style="font-size: 36px;"
+      >
+        BenSound
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`The InfoTile component renders correctly with no artists data for the subtitle 1`] = `
+<div>
+  <div
+    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+  >
+    <div
+      style="width: 57px; height: auto; padding-right: 32px;"
+    />
+    <div>
+      <div
+        style="font-size: 48px;"
+      >
+        A New Beginning
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`The InfoTile component renders correctly with the menu optionally disabled 1`] = `
+<div>
+  <div
+    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
+  >
+    <div
+      style="width: 57px; height: auto; padding-right: 32px;"
+    />
+    <div>
+      <div
+        style="font-size: 48px;"
+      >
+        A New Beginning
+      </div>
+      <div
+        style="font-size: 36px;"
+      >
+        BenSound
+      </div>
     </div>
   </div>
 </div>
 `;
 
 exports[`The InfoTile component renders correctly with the optional selected prop 1`] = `
-<div
-  style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
->
+<div>
   <div
-    style="width: 57px; height: auto; padding-right: 32px;"
+    style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
   >
-    <svg
-      aria-hidden="true"
-      class="svg-inline--fa fa-chevron-circle-right fa-w-16 "
-      data-icon="chevron-circle-right"
-      data-prefix="fas"
-      focusable="false"
-      role="img"
-      viewBox="0 0 512 512"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"
-        fill="currentColor"
-      />
-    </svg>
-  </div>
-  <div>
     <div
-      style="font-size: 48px;"
+      style="width: 57px; height: auto; padding-right: 32px;"
     >
-      Test Title
+      <svg
+        aria-hidden="true"
+        class="svg-inline--fa fa-chevron-circle-right fa-w-16 "
+        data-icon="chevron-circle-right"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"
+          fill="currentColor"
+        />
+      </svg>
     </div>
-    <div
-      style="font-size: 36px;"
-    >
-      Test Subtitle
-    </div>
-  </div>
-</div>
-`;
-
-exports[`The InfoTile component renders correctly with the optional subtitle prop 1`] = `
-<div
-  style="width: 100%; display: flex; align-items: center; font-size: 48px; padding: 2vh 0px;"
->
-  <div
-    style="width: 57px; height: auto; padding-right: 32px;"
-  />
-  <div>
-    <div
-      style="font-size: 48px;"
-    >
-      Test Title
-    </div>
-    <div
-      style="font-size: 36px;"
-    >
-      Test Subtitle
+    <div>
+      <div
+        style="font-size: 48px;"
+      >
+        A New Beginning
+      </div>
+      <div
+        style="font-size: 36px;"
+      >
+        BenSound
+      </div>
     </div>
   </div>
 </div>

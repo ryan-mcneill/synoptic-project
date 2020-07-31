@@ -42,12 +42,12 @@ export const fetchPlaylists = () => {
     dispatch(fetchPlaylistsAction());
 
     axios
-      .get(`/api/playlists`)
+      .get(`${process.env.REACT_APP_SERVER_ADDRESS}/api/playlists`)
       .then((playlistResponse: AxiosResponse<Song[]>) => {
         Promise.all(
           playlistResponse.data.map((playlist: BasicDetails) =>
             axios
-              .get(`/api/songs/playlist/${playlist._id}`)
+              .get(`${process.env.REACT_APP_SERVER_ADDRESS}/api/songs/playlist/${playlist._id}`)
               .then((songResponse) => ({
                 [playlist._id]: songResponse.data
               }))
@@ -124,8 +124,6 @@ export const addToPlaylist = ({
     const songs = !existingSongs.includes(songId)
       ? existingSongs.concat(songId)
       : existingSongs;
-
-    console.log(requestUrl);
 
     axios
       .post(requestUrl, { name, songs })

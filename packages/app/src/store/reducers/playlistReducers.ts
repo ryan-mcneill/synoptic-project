@@ -32,6 +32,7 @@ export const playlist = (
       };
     case UPDATE_PLAYLIST:
       return {
+        ...state,
         ...action.payload
       };
     default: {

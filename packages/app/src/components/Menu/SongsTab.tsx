@@ -19,7 +19,7 @@ const SongsTab: FC<SongsTabProps> = ({
   const [selectedSongTab, setSelectedSongTab] = useState("SONGS");
 
   return (
-    <div>
+    <div style={{ height: "inherit" }}>
       <div
         style={{
           display: "flex",

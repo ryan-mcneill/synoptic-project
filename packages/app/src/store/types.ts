@@ -35,6 +35,8 @@ export const SHUFFLE_SONGS = "SHUFFLE_SONGS";
 export const SET_IS_OPEN = "SET_IS_OPEN";
 export const SET_SELECTED_TAB = "SET_SELECTED_TAB";
 
+export const TIMED_OUT = "TIMED_OUT";
+
 // Typescript types
 
 export interface BasicDetails {
@@ -98,6 +100,7 @@ export interface State {
     loading: boolean;
     data?: Song[];
   };
+  timedOut: boolean;
 }
 
 // Action typescript types
@@ -123,9 +126,9 @@ export interface PlaylistRemoveAction {
 export interface UpdatePlaylistAction {
   type: typeof UPDATE_PLAYLIST;
   payload: {
-    previous: Song[];
+    previous?: Song[];
     current?: Song;
-    next: Song[];
+    next?: Song[];
   };
 }
 
@@ -285,3 +288,8 @@ export interface SetSelectedTab {
 }
 
 export type MenuActions = SetIsOpenAction | SetSelectedTab;
+
+export interface TimedOutAction {
+  type: typeof TIMED_OUT;
+  hasTimedOut: boolean;
+}

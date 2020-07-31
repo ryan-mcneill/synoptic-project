@@ -4,6 +4,7 @@
 
 1. [📼 Technologies](#-technologies)
 2. [🌳 Structure](#-structure)
+3. [📝 Notes](#-notes)
 
 ## 📼 Technologies
 
